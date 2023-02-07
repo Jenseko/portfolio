@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'didact';
+    src: url('../fonts/DidactGothic-Regular.ttf');
+}
+
+@font-face {
+    font-family:'fjalla' ;
+    src: url('../fonts/FjallaOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'work sans';
+    src: url('../fonts/WorkSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'work light';
+    src: url('../fonts/WorkSans-Light.ttf');
+}
+header article h4{
+    font-family: work sans;
+    margin-top: 5px;
+    text-align: center;
+}
+
+header article h1{
+    font-family: didact;
+    font-size: 40px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header article img{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+header article h2{
+    font-family: didact;
+    font-size: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/*==============ORBIS======================*/
+.orbis{
+    background-image: url('../img/portfolio2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba (0,0,0, 0.8);
+    height: 400px;
+}
+
+.orbis h5{
+    color: rgb(180, 180, 180);
+    font-family: work light;
+    margin-left: 70px;
+    padding-top: 100px;
+}
+
+.orbis h1{
+    color: rgb(255, 255, 255);
+    font-family: didact;
+    font-size: 42px;
+    margin-left: 70px;
+    padding-top: 4px;
+}
+
+.orbis h3{
+    color: rgb(180,180,180);
+    font-size: 7px;
+    font-family: work light;
+    margin-left: 70px;
+    padding-top: 10px;
+}
+
+.orbis a{
+    color: white;
+    font-family: fjalla;
+    font-size: 10px;
+    text-decoration: none;
+    border: 1px solid white;
+    display: inline-block;
+    margin-left: 70px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+}
+
+.orbis div h1{
+    color: rgba(180,180,180,0.5);
+    font-family: fjalla;
+    font-size: 70px;
+    text-align: right;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.orbis div a:hover{
+    background-color: white;
+    color: black;
+}
+/*=============ROLLR====================*/
+
+.rollr{
+    background-image: url('../img/portfolio3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba (0,0,0, 0.8);
+    height: 400px;
+}
+
+.rollr h5{
+    color: rgb(180, 180, 180);
+    font-family: work light;
+    margin-left: 70px;
+    padding-top: 100px;
+}
+
+.rollr h1{
+    color:black;
+    font-family: didact;
+    font-size: 42px;
+    margin-left: 70px;
+    padding-top: 4px;
+}
+
+.roller h3{
+    color: rgb(180,180,180);
+    font-size: 20px;
+    font-family: work light;
+    margin-left: 70px;
+    padding-top: 10px;
+}
+
+.rollr a{
+    color: black;
+    font-family: fjalla;
+    font-size: 10px;
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+}
+
+.rollr div h1{
+    color: rgba(180,180,180);
+    font-family: fjalla;
+    font-size: 70px;
+    text-align: right;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.rollr div a:hover{
+    background-color: black;
+    color: white;
+}
+/*=============GALITOS==============*/
+
+.galitos{
+    background-image: url('../img/portfolio4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba (0,0,0, 0.8);
+    height: 400px;
+}
+
+.galitos h5{
+    color: rgb(180, 180, 180);
+    font-family: work light;
+    margin-left: 70px;
+    padding-top: 100px;
+}
+
+.galitos h1{
+    color: rgb(255, 255, 255);
+    font-family: didact;
+    font-size: 42px;
+    margin-left: 70px;
+    padding-top: 4px;
+}
+
+.galitos h3{
+    color: rgb(180,180,180);
+    font-size: 7px;
+    font-family: work light;
+    margin-left: 70px;
+    padding-top: 10px;
+}
+
+.galitos a{
+    color: white;
+    font-family: fjalla;
+    font-size: 10px;
+    text-decoration: none;
+    border: 1px solid white;
+    display: inline-block;
+    margin-left: 70px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+}
+
+.galitos div h1{
+    color: rgba(180,180,180,0.5);
+    font-family: fjalla;
+    font-size: 70px;
+    text-align: right;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.galitos div a:hover{
+    background-color: white;
+    color: black;
+}
+
+/*=========TRETTO==========*/
+
+.tretto{
+    background-image: url('../img/portfolio5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba (0,0,0, 0.8);
+    height: 400px;
+}
+
+.tretto h5{
+    color: rgb(180, 180, 180);
+    font-family: work light;
+    margin-left: 70px;
+    padding-top: 100px;
+}
+
+.tretto h1{
+    color: black;
+    font-family: didact;
+    font-size: 42px;
+    margin-left: 70px;
+    padding-top: 4px;
+}
+
+.tretto h3{
+    color: rgb(180,180,180);
+    font-size: 7px;
+    font-family: work light;
+    margin-left: 70px;
+    padding-top: 10px;
+}
+
+.tretto a{
+    color: black;
+    font-family: fjalla;
+    font-size: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 70px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+}
+
+.tretto div h1{
+    color: rgba(62, 62, 62, 0.5);
+    font-family: fjalla;
+    font-size: 70px;
+    text-align: right;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.tretto div a:hover{
+    background-color: black;
+    color: white;
+}
+
+/*=========SECTION==========*/
+
+main section{
+    background-color: black;
+    background-size: cover;
+    height: 500px;
+}
+
+main section h1{
+    color: white;
+    font-size: 80px;
+    font-family: work light;
+    text-align: center;
+    padding-top: 100px;
+}
+
+main section p{
+    color: rgb(103, 103, 103);
+    font-size: 12px;
+    font-family: didact;
+    text-align: left;
+    width: 320px;
+    margin-left: 290px;
+    margin-top: 100px;
+    line-height: 20px;
+}
+
+main section a{
+    color: white;
+    font-family: didact;
+    font-size: 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 290px;
+    margin-top: 30px;
+}
+/*========FOOTER==================*/
+
+main footer{
+    height: 700px;
+}
+
+main footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 72px;
+    font-family: didact;
+    display: block;
+    width: 400px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main footer a:hover{
+    text-decoration: underline;
+}
