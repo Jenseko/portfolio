@@ -118,6 +118,9 @@ header article h2{
     background-color: white;
     color: black;
 }
+.orbis div a:hover + h1{
+    color: white;
+}
 /*=============ROLLR====================*/
 
 .rollr{
@@ -144,9 +147,9 @@ header article h2{
     padding-top: 4px;
 }
 
-.roller h3{
+.rollr h3{
     color: rgb(180,180,180);
-    font-size: 20px;
+    font-size: 7px;
     font-family: work light;
     margin-left: 70px;
     padding-top: 10px;
@@ -343,6 +346,7 @@ main section a{
     margin-left: 290px;
     margin-top: 30px;
 }
+
 /*========FOOTER==================*/
 
 main footer{
